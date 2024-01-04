@@ -13,8 +13,9 @@ import HelloWorld from './components/HelloWorld.vue'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/ThreeView">ThreeView</RouterLink>
+        <RouterLink to="/ThreeView">ThreeView <p style="color:red">❗ click me ❗</p></RouterLink> 
       </nav>
+
     </div>
   </header>
 

@@ -4,6 +4,14 @@ import TheWelcome from '../components/TheWelcome.vue'
 
 <template>
   <main>
-    <TheWelcome />
+
+    <br />
+    <br />
+    <br />
+    <br />
+      please make window potrait mode (like a smartphone) and click the ThreeView
+      <br /><br />
+      <br />
+      <br />
   </main>
 </template>

@@ -1,18 +1,17 @@
 <script setup lang="ts">
 
-//import { TresCanvas } from '@tresjs/core';
+import { TresCanvas } from '@tresjs/core';
 
 </script>
 
 <template>
 
-
         
-        <!-- <TresCanvas>
+        <TresCanvas>
             
             
             
-        </TresCanvas> -->
+        </TresCanvas>
         
 </template>
 
