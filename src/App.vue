@@ -8,13 +8,25 @@ import HelloWorld from './components/HelloWorld.vue'
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="I did it!" />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/ThreeView">ThreeView <p style="color:red">❗ click me ❗</p></RouterLink> 
       </nav>
+
+
+      <router-link
+      v-for="route in $router.options.routes"
+      :key="route.path"
+      :to="route.path"
+    >
+      <p class="router-link">
+        {{ route.name }} | 
+      </p>
+       
+    </router-link>
 
     </div>
   </header>
